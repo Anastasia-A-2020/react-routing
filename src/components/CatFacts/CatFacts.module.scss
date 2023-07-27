@@ -1,0 +1,17 @@
+.root {
+  margin: 15px auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 12px;
+
+  width: 650px;
+  text-align: start;
+}
+
+.title {
+  // color: orangered;
+  background-image: linear-gradient(orange, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}

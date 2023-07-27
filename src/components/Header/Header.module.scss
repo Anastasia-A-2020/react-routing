@@ -1,0 +1,42 @@
+.header {
+  height: 50px;
+
+  background-color: #55555555;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  width: 1140px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navList {
+  display: flex;
+  font-size: 24px;
+}
+
+.navItem {
+  padding: 2px;
+  list-style: none;
+  border: 1px solid #55555555;
+
+  &:not(:last-of-type) {
+    margin-right: 5px;
+  }
+
+  &:hover,
+  &:focus {
+    border: 1px solid red;
+    color: green;
+  }
+}
+
+.navLink {
+  text-decoration: none;
+  cursor: pointer;
+}
